@@ -1,31 +1,31 @@
-# COVID-19 Data Analysis Project
+# SQL Projects Showcase
 
-This repository showcases my SQL skills in analyzing COVID-19 data. The project involves querying data from "CovidDeaths" and "CovidVaccinations" tables.
+## Project 1: Data Cleaning
 
-## Highlights
+- **Objective:** Cleaned and standardized data in the `NashvilleHousing` dataset.
+  
+- **Key Tasks:**
+  - Standardized date formats.
+  - Populated missing property addresses by leveraging related records.
+  - Broke down property addresses into individual columns (address, city, state).
+  - Updated 'Y' and 'N' values in the "Sold as Vacant" field to 'Yes' and 'No'.
+  - Removed duplicate records based on specified criteria.
+  - Deleted unused columns for optimization.
 
-- Extracted insights like total cases vs total deaths and total cases vs population for Canada.
-- Identified countries with the highest infection rate compared to population.
-- Analyzed countries with the highest death count and continents with the highest death count per population.
-- Computed global COVID-19 statistics, including total cases, deaths, and death percentage.
-- Implemented a rolling vaccination count using SQL window functions.
-- Created a temporary table and a view for better data organization.
+## Project 2: Data Exploration
 
-## Technologies Used
+- **Objective:** Explored and analyzed COVID-19 data in the `CovidDeaths` and `CovidVaccinations` datasets.
 
-- SQL
-- Window functions for data analysis
-- Temporary table for intermediate results
-- View for simplifying complex queries
+- **Key Insights:**
+  - Calculated death percentages and affected population percentages for specific locations.
+  - Identified countries with the highest infection rates compared to population.
+  - Highlighted countries and continents with the highest death counts.
+  - Calculated the total vaccination percentage.
+  
+- **Techniques Used:**
+  - SQL queries for data aggregation, filtering, and percentage calculations.
+  - Utilized Common Table Expressions (CTE) and temporary tables for data manipulation.
+  - Created a view to showcase the percentage of the population vaccinated.
 
-## Usage
-
-The SQL queries in this project can be executed using any SQL database management tool.
-
-## Note
-
-The queries themselves are available in the SQL files within the repository for more detailed examination.
-
-Feel free to reach out for further discussion or clarification.
-
+Feel free to add or modify details based on the specifics of your projects and the insights you gained. This summary provides a quick overview of the objectives, key tasks, insights, and techniques used in each project.
 
